@@ -22,7 +22,7 @@
             --info: #6ea8fe;
             --code: #0d0d0d;
             --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
-            --radius: 18px;
+            --radius: 1px;
             --radius-sm: 10px;
             --max-width: 1240px;
         }
