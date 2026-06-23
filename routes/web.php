@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SarvjeetController;
+use App\Http\Controllers\TheoryController;
 
 //Route::get('/', function () {
  //   return view('welcome');
@@ -16,3 +17,100 @@ Route::get('questions', function () {
 });
 
 Route::get('Q', [SarvjeetController::class,'viewQuestionPage']);
+
+Route::get('theory', function () {
+    return view('theory');
+});
+
+Route::get('name-theory', [TheoryController::class,'viewTheoryPage']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
