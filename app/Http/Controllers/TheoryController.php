@@ -10,4 +10,9 @@ class TheoryController extends Controller
 	{
 		return view('theory');
 	}
+	
+	function contactFormFlow()
+	{
+		return view('formtheory');
+	}
 }
