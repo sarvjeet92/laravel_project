@@ -97,4 +97,15 @@
 	<br>
 	<div>
 
+<h3>8=> What is middleware in Laravel?</h3>
+
+	Middleware acts like a filter between the 
+	request and the response. It checks conditions 
+	like authentication or role access before 
+	allowing a request reaches the controller. 
+	This keeps controllers clean and logic reusable. 
+	Middleware questions often appear in Laravel 
+	interview questions because they show an 
+	understanding of the request lifecycle.
+
 </div>
