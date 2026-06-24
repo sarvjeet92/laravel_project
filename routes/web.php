@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SarvjeetController;
 use App\Http\Controllers\TheoryController;
+use App\Http\Controllers\ApiController;
 
 //Route::get('/', function () {
  //   return view('welcome');
@@ -23,6 +24,16 @@ Route::get('theory', function () {
 });
 
 Route::get('name-theory', [TheoryController::class,'viewTheoryPage']);
+
+Route::get('api-data/{name}', [ApiController::class,'viewTheoryPage']);
+
+Route::get('user/{name}', function($name){
+	return view('api-data', array('name' => $name)); //direct return
+	});
+
+
+
+
 
 
 
