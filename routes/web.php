@@ -5,6 +5,7 @@ use App\Http\Controllers\SarvjeetController;
 use App\Http\Controllers\TheoryController;
 use App\Http\Controllers\ApiController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\MidCheck;
 
 
 //Route::get('/', function () {
@@ -48,6 +49,7 @@ Route::get('mid', function () {
 Route::get('home', function () {
     return view('home');
 });
+
 
 
 
