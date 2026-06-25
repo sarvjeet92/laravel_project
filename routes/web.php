@@ -45,6 +45,10 @@ Route::get('mid', function () {
     return view('mid');
 });
 
+Route::get('home', function () {
+    return view('home');
+});
+
 
 
 
