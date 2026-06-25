@@ -5,6 +5,7 @@ use App\Http\Controllers\SarvjeetController;
 use App\Http\Controllers\TheoryController;
 use App\Http\Controllers\ApiController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\MidCheck;
 
 
 //Route::get('/', function () {
@@ -44,6 +45,7 @@ Route::get('form-flow', [TheoryController::class,'contactFormFlow']);
 Route::get('mid', function () {
     return view('mid');
 });
+
 
 
 
