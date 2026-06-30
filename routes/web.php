@@ -1,11 +1,11 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SarvjeetController;
 use App\Http\Controllers\TheoryController;
 use App\Http\Controllers\ApiController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\MidCheck;
+
 
 
 //Route::get('/', function () {
@@ -46,98 +46,8 @@ Route::get('mid', function () {
     return view('mid');
 });
 
-Route::get('home', function () {
-    return view('home');
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Route::view('home', 'home')->middleware('check1');
+Route::view('about', 'about');
 
 
 
